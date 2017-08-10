@@ -4,64 +4,67 @@ body{
   padding: 0;
   border: 0;
 }
-.content{
-  text-align: center;
-  background-color: white;
-  margin-left: 7.5%;
-  margin-right: 7.5%;
-  padding-top: 50px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
 
 a{
   color: white;
-  font-family: Helvetica;
   font-size: 18px;
 }
 
 h1{
-  font-family: Helvetica;
   font-size: 70px;
-  font-weight: bold;
   color: white;
   margin-top: 0;
 }
 
 h2{
-  font-family: Helvetica;
   font-size: 32px;
-  font-weight: bold;
 }
 
 h3{
-  font-family: Helvetica;
   font-size: 23px;
-  font-weight: bold;
 }
 
 p{
-  font-family: Helvetica;
   font-size: 14px;
+}
+
+h1, h2, h3{
+  font-weight: bold;
+}
+
+a, h1, h2, h3, p{
+  font-family: Helvetica;
+}
+
+.content{
+  background-color: white;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 50px;
+  text-align: center;
 }
 
 .heading{
   background-image: url("../images/the-flatiron-building.png");
+  background-position: center;
   margin: 0px;
 }
 
 .new_york{
   background-image: url("../images/the-flatiron-building.png");
+  background-position: center;
+  color: white;
   font-family: Helvetica;
   font-size: 23;
-  font-weight: bold;
-  color: white;
 }
 
 .footer{
+  background-color: dimgray;
+  color: white;
   font-family: Helvetica;
   font-size: 11px;
-  color: white;
-  background-color: dimgray;
   text-align: left;
 }
